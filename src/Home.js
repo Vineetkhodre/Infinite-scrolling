@@ -19,7 +19,7 @@ export default function Home() {
   function fetchMoreData() {
     setTimeout(() => {
       setValue(value.concat(value));
-    }, 5000);
+    }, 1000);
   }
 
   return (
